@@ -1,0 +1,160 @@
+
+
+body {
+	background: #000;
+}
+
+#page {
+	width: 320px;
+	height: auto;
+	margin: 0 auto;
+}
+//Header
+header {
+	background: black;
+	color: #fff;
+
+	.logo {
+		color: $primaryColor;
+		font-weight: 900;
+		float: left;
+	}
+
+	.motto{
+		display: none;
+	}
+
+	.hero {
+		background: url(../img/herobild_svt.png);
+		height: 300px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+//Navigering
+
+#mobile_nav {
+	float: right;
+}
+
+.nav {
+	background: $primaryColor;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	display: none;
+
+	li {
+	display: inline-block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+	a:hover {
+			color: black;
+		}
+}
+
+.submenu {
+	display: none;
+}
+
+//Section
+
+.main {
+	width: 100%;
+	height: auto;
+	background: #fff;
+	display: inline-block;
+}
+
+.block {
+	height: 165px;
+	width: 140px;
+	margin: 5px;
+	/*display: inline-block;*/
+	float: left;
+}
+
+#roseBlock1 {
+	background: url(../img/Red_rose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#roseBlock2 {
+	background: url(../img/yellow_rose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	clear: right;
+}
+
+#roseBlock3 {
+	background: url(../img/pink_rose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#roseBlock4 {
+	background: url(../img/white_rose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.roseText {
+
+	.roseTitle {
+		//border: 1px solid black;
+		display: block;
+		background: $primaryColor;
+		opacity: 0.8;
+		color: #fff;
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+	p {
+		background: $primaryColor;
+		opacity: 0.8;
+		color: #fff;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+.slideInfo {
+	display: none;
+}
+
+article img {
+	float: right;
+	height: 150px;
+	width: 150px;
+}
+
+//Aside
+
+aside {
+	display: none;
+}
+
+//Footer
+
+footer {
+	background: black;
+	color: #fff;
+
+	a {
+		color: $primaryColor;
+	}
+}

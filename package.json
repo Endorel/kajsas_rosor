@@ -1,0 +1,21 @@
+{
+  "name": "kajsas",
+  "version": "1.0.0",
+  "description": "Kajsas Rosor html5",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Helene Francke",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "cssnano": "^3.7.4",
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.2.1",
+    "pixrem": "^3.0.1"
+  }
+}

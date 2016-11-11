@@ -1,0 +1,404 @@
+@media only screen and (max-width: 668px) {
+  body {
+    background: #000;
+  }
+  #page {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+  }
+  header {
+    background: black;
+    color: #fff;
+  }
+  header .logo {
+    color: #d41378;
+    font-weight: 900;
+    float: left;
+  }
+  header .motto {
+    display: none;
+  }
+  header .hero {
+    background: url(../img/herobild_svt.png);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #mobile_nav {
+    float: right;
+  }
+  .nav {
+    background: #d41378;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: none;
+  }
+  .nav li {
+    display: inline-block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav a:hover {
+    color: black;
+  }
+  .submenu {
+    display: none;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: inline-block;
+  }
+  .block {
+    height: 165px;
+    width: 140px;
+    margin: 5px;
+    /*display: inline-block;*/
+    float: left;
+  }
+  #roseBlock1 {
+    background: url(../img/Red_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #roseBlock2 {
+    background: url(../img/yellow_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    clear: right;
+  }
+  #roseBlock3 {
+    background: url(../img/pink_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #roseBlock4 {
+    background: url(../img/white_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .roseText .roseTitle {
+    display: block;
+    background: #d41378;
+    opacity: 0.8;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .roseText p {
+    background: #d41378;
+    opacity: 0.8;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  .slideInfo {
+    display: none;
+  }
+  article img {
+    float: right;
+    height: 150px;
+    width: 150px;
+  }
+  aside {
+    display: none;
+  }
+  footer {
+    background: black;
+    color: #fff;
+  }
+  footer a {
+    color: #d41378;
+  }
+}
+
+@media only screen and (min-width: 669px) and (max-width: 1024px) {
+  body {
+    background: #000;
+  }
+  #page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  header {
+    background: black;
+    color: #fff;
+  }
+  header .logo {
+    color: #d41378;
+    font-weight: 900;
+  }
+  header .hero {
+    background: url(../img/herobild_svt.png);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #mobile_nav {
+    display: none;
+  }
+  .nav {
+    background: #d41378;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  .nav li {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav a:hover {
+    color: black;
+  }
+  .submenu {
+    display: none;
+  }
+  .main {
+    width: 70%;
+    height: 960px;
+    background: #fff;
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: -10px;
+  }
+  #roseBlock1 {
+    height: 228px;
+    width: 275px;
+    display: inline-block;
+    background: url(../img/Red_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #roseBlock2 {
+    height: 228px;
+    width: 275px;
+    display: inline-block;
+    background: url(../img/Red_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    clear: right;
+  }
+  #roseBlock3 {
+    height: 228px;
+    width: 275px;
+    display: inline-block;
+    background: url(../img/Red_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #roseBlock4 {
+    height: 228px;
+    width: 275px;
+    display: inline-block;
+    background: url(../img/Red_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .roseTitle {
+    border: 1px solid black;
+  }
+  .slideInfo {
+    display: none;
+  }
+  article img {
+    float: right;
+    height: 150px;
+    width: 150px;
+  }
+  .map {
+    width: 30%;
+    background: #fff;
+    float: right;
+    display: inline-block;
+    height: 960px;
+    padding-left: 10px;
+    margin-left: -10px;
+  }
+  .map a {
+    color: #d41378;
+  }
+  footer {
+    background: black;
+    color: #fff;
+  }
+  footer a {
+    color: #d41378;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  body {
+    background: #000;
+  }
+  #page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  header {
+    background: black;
+    color: #fff;
+  }
+  header .logo {
+    color: #d41378;
+    font-weight: 900;
+    display: inline-block;
+  }
+  header .motto {
+    float: right;
+    margin: 0.8em;
+    overflow: auto;
+  }
+  header .hero {
+    background: url(../img/herobild_svt.png);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #mobile_nav {
+    display: none;
+  }
+  .nav {
+    background: #d41378;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    position: absolute;
+  }
+  .nav li {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav a:hover {
+    color: black;
+  }
+  .nav li > ul {
+    display: none;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+  }
+  .submenu {
+    display: none;
+  }
+  .content {
+    width: 960px;
+    height: auto;
+    background: #fff;
+  }
+  .main {
+    width: 65%;
+    background: #fff;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .block {
+    height: 250px;
+    width: 240px;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+  }
+  #roseBlock1 {
+    background: url(../img/Red_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #roseBlock2 {
+    background: url(../img/yellow_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    clear: right;
+  }
+  #roseBlock3 {
+    background: url(../img/pink_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #roseBlock4 {
+    background: url(../img/white_rose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .roseText .roseTitle {
+    display: block;
+    background: #d41378;
+    opacity: 0.8;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6em;
+  }
+  .roseText p {
+    background: #d41378;
+    opacity: 0.8;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  .slideInfo {
+    display: none;
+  }
+  article img {
+    float: right;
+    height: 150px;
+    width: 150px;
+  }
+  .map {
+    width: 30%;
+    background: #fff;
+    float: right;
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: -10px;
+  }
+  .map a {
+    color: #d41378;
+  }
+  .map ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  footer {
+    background: black;
+    color: #fff;
+  }
+  footer a {
+    color: #d41378;
+  }
+}

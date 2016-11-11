@@ -1,0 +1,152 @@
+
+body {
+	background: #000;
+}
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+//Header
+header {
+	background: black;
+	color: #fff;
+
+	.logo {
+		color: $primaryColor;
+		font-weight: 900;
+	}
+
+	.hero {
+		background: url(../img/herobild_svt.png);
+		height: 300px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+
+	}
+}
+
+#mobile_nav {
+	display: none;
+}
+
+//Navigering
+.nav {
+	background: $primaryColor;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+
+	li {
+	display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+	a:hover {
+			color: black;
+		}
+}
+
+.submenu {
+	display: none;
+}
+
+//Section
+
+.main {
+	width: 70%;
+	height: 960px;
+	background: #fff;
+	display: inline-block;
+	padding-right: 20px;
+	margin-right: -10px;
+}
+
+#roseBlock1 {
+	height: 228px;
+	width: 275px;
+	display: inline-block;
+	background: url(../img/Red_rose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#roseBlock2 {
+	height: 228px;
+	width: 275px;
+	display: inline-block;
+	background: url(../img/Red_rose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	clear: right;
+}
+
+#roseBlock3 {
+	height: 228px;
+	width: 275px;
+	display: inline-block;
+	background: url(../img/Red_rose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#roseBlock4 {
+	height: 228px;
+	width: 275px;
+	display: inline-block;
+	background: url(../img/Red_rose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.roseTitle {
+	border: 1px solid black;
+	//background: $primaryColor;
+}
+
+.slideInfo {
+	display: none;
+}
+
+article img {
+	float: right;
+	height: 150px;
+	width: 150px;
+}
+
+//Aside
+
+.map {
+	width: 30%;
+	background: #fff;
+	float: right;
+	display: inline-block;
+	height: 960px;
+	padding-left: 10px;
+	margin-left: -10px;
+
+	a {
+		color: $primaryColor;
+	}
+}
+
+//Footer
+
+footer {
+	background: black;
+	color: #fff;
+
+	a {
+		color: $primaryColor;
+	}
+}
