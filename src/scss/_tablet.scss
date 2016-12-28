@@ -48,14 +48,14 @@ header {
 }
 
 //Navigering
-.nav {
+.navbar {
 	background: $primaryColor;
 	width: 100%;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	text-align: right;
-	position: fixed;
+	position: relative;
 	font-size: 0.8em;
 
 	li {
@@ -69,6 +69,7 @@ header {
 	a {
 		text-decoration: none;
 		color: #fff;
+		cursor: pointer;
 	}
 	a:hover {
 			color: black;
@@ -84,6 +85,15 @@ header {
 
 .submenu {
 	display: none;
+	position: absolute;
+	a {
+		text-decoration: none;
+		color: #fff;
+		cursor: pointer;
+	}
+	a:hover {
+			color: black;
+		}
 }
 
 //Section

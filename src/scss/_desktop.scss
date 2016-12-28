@@ -9,6 +9,7 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
+	display: block;
 }
 //Header
 header {
@@ -46,14 +47,14 @@ header {
 }
 
 //Navigering
-.nav {
+.navbar {
 	background: $primaryColor;
 	width: 100%;
 	list-style: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	text-align: right;
-	position: absolute;
+	//position: relative;
 	font-size: 0.8em;
 
 	li {
@@ -82,6 +83,15 @@ header {
 
 .submenu {
 	display: none;
+	position: absolute;
+	a {
+		text-decoration: none;
+		color: #fff;
+		cursor: pointer;
+	}
+	a:hover {
+			color: black;
+		}
 }
 
 //Content
