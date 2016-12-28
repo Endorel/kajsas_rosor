@@ -1,6 +1,7 @@
 @media only screen and (max-width: 668px) {
   body {
     background: #000;
+    font-family: Arial, Helvetica, sans-serif;
   }
   #page {
     width: 320px;
@@ -128,25 +129,39 @@
 @media only screen and (min-width: 669px) and (max-width: 1024px) {
   body {
     background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
   }
   #page {
-    width: 960px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
+    background: #fff;
   }
   header {
     background: black;
     color: #fff;
+    position: fixed;
   }
   header .logo {
     color: #d41378;
     font-weight: 900;
+    display: inline-block;
+    font-size: 2em;
+  }
+  header a {
+    text-decoration: none;
+  }
+  header .motto {
+    float: right;
+    margin: 0.8em;
+    overflow: auto;
   }
   header .hero {
     background: url(../img/herobild_svt.png);
     height: 300px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
   }
   #mobile_nav {
     display: none;
@@ -158,11 +173,13 @@
     margin: 0;
     padding: 0;
     text-align: right;
+    position: fixed;
+    font-size: 0.8em;
   }
   .nav li {
     display: inline-block;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 5px;
     text-decoration: none;
     width: 125px;
     position: relative;
@@ -174,69 +191,75 @@
   .nav a:hover {
     color: black;
   }
+  .nav li > ul {
+    display: none;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+  }
   .submenu {
     display: none;
   }
   .main {
-    width: 70%;
-    height: 960px;
+    width: 65%;
+    height: auto;
     background: #fff;
     display: inline-block;
     padding-right: 20px;
-    margin-right: -10px;
-  }
-  #roseBlock1 {
-    height: 228px;
-    width: 275px;
-    display: inline-block;
-    background: url(../img/Red_rose.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  #roseBlock2 {
-    height: 228px;
-    width: 275px;
-    display: inline-block;
-    background: url(../img/Red_rose.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    clear: right;
-  }
-  #roseBlock3 {
-    height: 228px;
-    width: 275px;
-    display: inline-block;
-    background: url(../img/Red_rose.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  #roseBlock4 {
-    height: 228px;
-    width: 275px;
-    display: inline-block;
-    background: url(../img/Red_rose.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .roseTitle {
-    border: 1px solid black;
-  }
-  .slideInfo {
-    display: none;
   }
   article img {
     float: right;
-    height: 150px;
-    width: 150px;
+    height: 12em;
+    width: 12em;
+  }
+  .block {
+    height: 230px;
+    width: 220px;
+    margin: 5px;
+    float: left;
+  }
+  #roseBlock1 {
+    background: url(../img/Red_rose.png);
+    background-size: cover;
+  }
+  #roseBlock2 {
+    background: url(../img/yellow_rose.png);
+    background-size: cover;
+    clear: right;
+  }
+  #roseBlock3 {
+    background: url(../img/pink_rose.png);
+    background-size: cover;
+  }
+  #roseBlock4 {
+    background: url(../img/white_rose.png);
+    background-size: cover;
+  }
+  .roseText .roseTitle {
+    display: block;
+    background: #d41378;
+    opacity: 0.8;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6em;
+  }
+  .roseText p {
+    background: #d41378;
+    opacity: 0.8;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  .slideInfo {
+    display: none;
   }
   .map {
     width: 30%;
     background: #fff;
     float: right;
-    display: inline-block;
     height: 960px;
     padding-left: 10px;
-    margin-left: -10px;
   }
   .map a {
     color: #d41378;
@@ -253,10 +276,13 @@
 @media only screen and (min-width: 1025px) {
   body {
     background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
   }
   #page {
     width: 960px;
     margin: 0 auto;
+    background: #fff;
   }
   header {
     background: black;
@@ -266,6 +292,10 @@
     color: #d41378;
     font-weight: 900;
     display: inline-block;
+    font-size: 2em;
+  }
+  header a {
+    text-decoration: none;
   }
   header .motto {
     float: right;
@@ -276,8 +306,7 @@
     background: url(../img/herobild_svt.png);
     height: 300px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
   }
   #mobile_nav {
     display: none;
@@ -290,6 +319,7 @@
     padding: 0;
     text-align: right;
     position: absolute;
+    font-size: 0.8em;
   }
   .nav li {
     display: inline-block;
@@ -316,11 +346,6 @@
   .submenu {
     display: none;
   }
-  .content {
-    width: 960px;
-    height: auto;
-    background: #fff;
-  }
   .main {
     width: 65%;
     background: #fff;
@@ -337,24 +362,20 @@
   }
   #roseBlock1 {
     background: url(../img/Red_rose.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
   }
   #roseBlock2 {
     background: url(../img/yellow_rose.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
     clear: right;
   }
   #roseBlock3 {
     background: url(../img/pink_rose.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
   }
   #roseBlock4 {
     background: url(../img/white_rose.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
   }
   .roseText .roseTitle {
     display: block;

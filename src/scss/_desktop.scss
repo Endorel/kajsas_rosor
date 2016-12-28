@@ -1,11 +1,14 @@
 
 body {
 	background: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
 }
 
 #page {
 	width: 960px;
 	margin: 0 auto;
+	background: #fff;
 }
 //Header
 header {
@@ -16,7 +19,12 @@ header {
 		color: $primaryColor;
 		font-weight: 900;
 		display: inline-block;
+		font-size: 2em;
 	}
+
+	a {
+			text-decoration: none;
+		}
 
 	.motto {
 		float: right;
@@ -28,8 +36,7 @@ header {
 		background: url(../img/herobild_svt.png);
 		height: 300px;
 		width: 100%;
-		background-repeat: no-repeat;
-		background-position: center;
+		background-size: cover;
 
 	}
 }
@@ -47,6 +54,7 @@ header {
 	padding: 0;
 	text-align: right;
 	position: absolute;
+	font-size: 0.8em;
 
 	li {
 	display: inline-block;
@@ -78,12 +86,6 @@ header {
 
 //Content
 
-.content {
-	width: 960px;
-	height: auto;
-	background: #fff;
-}
-
 .main {
 	width: 65%;
 	background: #fff;
@@ -105,27 +107,23 @@ header {
 
 #roseBlock1 {
 	background: url(../img/Red_rose.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	background-size: cover;
 }
 
 #roseBlock2 {
 	background: url(../img/yellow_rose.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	background-size: cover;
 	clear: right;
 }
 
 #roseBlock3 {
 	background: url(../img/pink_rose.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	background-size: cover;
 }
 
 #roseBlock4 {
 	background: url(../img/white_rose.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	background-size: cover;
 }
 
 .roseText {

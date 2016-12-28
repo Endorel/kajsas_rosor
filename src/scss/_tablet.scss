@@ -1,28 +1,44 @@
 
 body {
 	background: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
 }
 
 #page {
-	width: 960px;
+	width: 100%;
+	height: auto;
 	margin: 0 auto;
+	background: #fff;
 }
 //Header
 header {
 	background: black;
 	color: #fff;
+	position: fixed;	
 
 	.logo {
 		color: $primaryColor;
 		font-weight: 900;
+		display: inline-block;
+		font-size: 2em;		
+	}
+
+	a {
+		text-decoration: none;
+		}
+
+	.motto {
+		float: right;
+		margin: 0.8em;
+		overflow: auto;
 	}
 
 	.hero {
 		background: url(../img/herobild_svt.png);
 		height: 300px;
 		width: 100%;
-		background-repeat: no-repeat;
-		background-position: center;
+		background-size: cover;
 
 	}
 }
@@ -39,11 +55,13 @@ header {
 	margin: 0;
 	padding: 0;
 	text-align: right;
+	position: fixed;
+	font-size: 0.8em;
 
 	li {
 	display: inline-block;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 5px;
     text-decoration: none;
     width: 125px;
     position: relative;
@@ -55,6 +73,13 @@ header {
 	a:hover {
 			color: black;
 		}
+	li > ul {
+		display: none;
+		position: relative;
+		list-style-type: none;
+		padding: 0;
+		margin: 5px 0;
+	}
 }
 
 .submenu {
@@ -64,64 +89,73 @@ header {
 //Section
 
 .main {
-	width: 70%;
-	height: 960px;
+	width: 65%;
+	height: auto;
 	background: #fff;
 	display: inline-block;
 	padding-right: 20px;
-	margin-right: -10px;
-}
-
-#roseBlock1 {
-	height: 228px;
-	width: 275px;
-	display: inline-block;
-	background: url(../img/Red_rose.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#roseBlock2 {
-	height: 228px;
-	width: 275px;
-	display: inline-block;
-	background: url(../img/Red_rose.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	clear: right;
-}
-
-#roseBlock3 {
-	height: 228px;
-	width: 275px;
-	display: inline-block;
-	background: url(../img/Red_rose.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#roseBlock4 {
-	height: 228px;
-	width: 275px;
-	display: inline-block;
-	background: url(../img/Red_rose.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.roseTitle {
-	border: 1px solid black;
-	//background: $primaryColor;
-}
-
-.slideInfo {
-	display: none;
 }
 
 article img {
 	float: right;
-	height: 150px;
-	width: 150px;
+	height: 12em;
+	width: 12em;
+}
+
+.block {
+	height: 230px;
+	width: 220px;
+	margin: 5px;
+	//display: inline-block;
+	float: left;
+
+	
+}
+
+#roseBlock1 {
+	background: url(../img/Red_rose.png);
+	background-size: cover;
+}
+
+#roseBlock2 {
+	background: url(../img/yellow_rose.png);
+	background-size: cover;
+	clear: right;
+}
+
+#roseBlock3 {
+	background: url(../img/pink_rose.png);
+	background-size: cover;
+}
+
+#roseBlock4 {
+	background: url(../img/white_rose.png);
+	background-size: cover;
+}
+
+.roseText {
+
+	.roseTitle {
+		//border: 1px solid black;
+		display: block;
+		background: $primaryColor;
+		opacity: 0.8;
+		color: #fff;
+		text-align: center;
+		font-size: 1.6em;
+	}
+
+	p {
+		background: $primaryColor;
+		opacity: 0.8;
+		color: #fff;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+.slideInfo {
+	display: none;
 }
 
 //Aside
@@ -130,10 +164,10 @@ article img {
 	width: 30%;
 	background: #fff;
 	float: right;
-	display: inline-block;
+	//display: inline-block;
 	height: 960px;
 	padding-left: 10px;
-	margin-left: -10px;
+	//margin-left: -10px;
 
 	a {
 		color: $primaryColor;
