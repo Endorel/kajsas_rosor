@@ -110,7 +110,7 @@ header {
 	width: 240px;
 	margin: 10px;
 	display: inline-block;
-	float: left;
+	//float: left;
 
 	
 }
@@ -154,11 +154,15 @@ header {
 		color: #fff;
 		margin: 0;
 		text-align: center;
+		display: block;
+		float: left;
+		
 	}
 }
 
 .slideInfo {
 	display: none;
+	z-index: 1;
 }
 
 article img {

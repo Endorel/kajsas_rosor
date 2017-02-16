@@ -122,19 +122,25 @@ header {
 		color: #fff;
 		text-align: center;
 		font-size: 1.2em;
+		z-index: 2;
 	}
 
 	p {
 		background: $primaryColor;
+		position: relative;
 		opacity: 0.8;
 		color: #fff;
 		margin: 0;
 		text-align: center;
+		display: block;
+		float: left;
+
 	}
 }
 
 .slideInfo {
 	display: none;
+	z-index: 100;
 }
 
 article img {
